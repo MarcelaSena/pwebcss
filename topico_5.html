@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+    <head>
+        <meta charset="UFT-8"/>
+        <style>
+            body{
+                background-color: skyblue;
+            }
+            h1{
+                background-color: aqua;
+            }
+            .center{
+                width: 50%;
+                margin: auto;
+            }
+        </style>
+        
+    </head>
+    <body>
+        <h1>Fundos CSS</h1>
+        <p>As propriedades de plano de fundo do CSS são usadas para definir os efeitos de segundo plano para elementos.</p>
+        <p>Propriedades de fundo CSS:</p>
+        <ul>
+            <li>cor de fundo</li>
+            <li>imagem de fundo</li>
+            <li>fundo de repetição</li>
+            <li>fundo de ligação</li>
+            <li>posição de fundo</li>
+        </ul>
+        <h2>Cor de fundo</h2>
+        <p>A background-colorpropriedade especifica a cor de fundo de um elemento.</p>
+        <p>A cor de fundo de uma página é configurada assim:</p>
+        <h3>Exemplo</h3>
+        <img src="Imagem/fundos1.jpg"/>
+        <p>Com CSS, uma cor é mais frequentemente especificada por:</p>
+        <ul>
+            <li>um nome de cor válido - como "vermelho"</li>
+            <li>um valor HEX - como "# ff0000"</li>
+            <li>um valor RGB - como "rgb (255,0,0)"</li>
+        </ul>
+        <p>Veja os valores de cores CSS para obter uma lista completa de possíveis valores de cores.</p>
+        <p>No exemplo abaixo, os elementos <u>h1</u>, <u>p</u> e <u>div</u> têm cores de fundo diferentes:</p>
+        <h3>Exemplo</h3>
+        <img src="Imagem/fundos2.jpg"/>
+        <h2>Imagem de fundo</h2>
+        <p>A background-imagepropriedade especifica uma imagem para usar como plano de fundo de um elemento.</p>
+        <p>Por padrão, a imagem é repetida para cobrir todo o elemento.</p>
+        <p>A imagem de fundo de uma página pode ser configurada assim:</p>
+        <h3>Exemplo</h3>
+        <img src="Imagem/fundos3.jpg"/>
+        <p>Abaixo está um exemplo de uma combinação <b>ruim</b> de texto e imagem de fundo. O texto é dificilmente legível:</p>
+        <h3>Exemplo</h3>
+        <img src="Imagem/fundos4.jpg"/>
+        <p><b>Nota:</b> Ao usar uma imagem de fundo, use uma imagem que não perturbe o texto.</p>
+        <h2>Imagem de fundo - Repetir Horizontalmente ou Verticalmente</h2>
+        <p>Por padrão, a background-imagepropriedade repete uma imagem na horizontal e na vertical.</p>
+        <p>Algumas imagens devem ser repetidas apenas horizontalmente ou verticalmente, ou parecerão estranhas, assim:</p>
+        <h3>Exemplo</h3>
+        <img src="Imagem/fundos5.jpg"/>
+        <p>Se a imagem acima for repetida apenas horizontalmente ( background-repeat: repeat-x;), o fundo ficará melhor:</p>
+        <h3>Exemplo</h3>
+        <img src="Imagem/fundos6.jpg"/>
+        <p><b>Sugestão:</b> Para repetir uma imagem verticalmente, definabackground-repeat: repeat-y;</p>
+        <h2>Imagem de fundo - Definir posição e não repetir</h2>
+        <p>Mostrar a imagem de fundo apenas uma vez também é especificado pela background-repeatpropriedade:</p>
+        <h3>Exemplo</h3>
+        <img src="Imagem/fundos7.jpg"/>
+        <p>No exemplo acima, a imagem de fundo é mostrada no mesmo lugar que o texto. Queremos mudar a posição da imagem, para que ela não perturbe muito o texto.</p>
+        <p>A posição da imagem é especificada pela background-positionpropriedade:</p>
+        <h3>Exemplo</h3>
+        <img src="Imagem/fundos8.jpg"/>
+        <h2>Imagem de fundo - posição fixa</h2>
+        <p>Para especificar que a imagem de fundo deve ser corrigida (não rolará com o resto da página), use a background-attachmentpropriedade:</p>
+        <h3>Exemplo</h3>
+        <img src="Imagem/fundos9.jpg"/>
+        <h2>Plano de fundo - Propriedade de taquigrafia</h2>
+        <p>Para encurtar o código, também é possível especificar todas as propriedades de segundo plano em uma única propriedade. Isso é chamado de propriedade abreviada.</p>
+        <p>A propriedade abreviada para background é background:</p>
+        <h3>Exemplo</h3>
+        <img src="Imagem/fundos10.jpg"/>
+        <p>Ao usar a propriedade abreviada, a ordem dos valores da propriedade é:</p>
+        <ul>
+            <li>background-color</li>
+            <li>background-image</li>
+            <li>background-repeat</li>
+            <li>background-attachment</li>
+            <li>background-attachment</li>
+        </ul>
+        <p>Não importa se um dos valores da propriedade estiver faltando, desde que os outros estejam nessa ordem.</p>
+    </body>
+</html>

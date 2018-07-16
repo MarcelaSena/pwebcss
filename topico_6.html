@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+    <head>
+        <meta charset="UFT-8"/>
+        <style>
+            body{
+                background-color: skyblue;
+            }
+            
+            .center{
+                width: 50%;
+                margin: auto;
+            }
+        </style>
+    </head>
+    <body>
+        <h1>Fronteiras de CSS</h1>
+        <h2>Propriedades de borda CSS</h2>
+        <p>As <b>border</b>propriedades CSS permitem que você especifique o estilo, a largura e a cor da borda de um elemento.</p>
+        <img src="Imagem/fronteiras.jpg"/>
+        <h2>Estilo de borda</h2>
+        <p>A <b>border-style</b>propriedade especifica o tipo de borda a ser exibido.</p>
+        <p>Os seguintes valores são permitidos:</p>
+        <ul>
+            <li><B>otted</B>d - Define uma borda pontilhada</li>
+            <li><b>dashed</b>- Define uma borda tracejada</li>
+            <li><b>solid</b>- Define uma borda sólida</li>
+            <li><b>double</b>- Define uma fronteira dupla</li>
+            <li><b>groove</b>- Define uma borda com sulcos 3D. O efeito depende do valor da cor da borda</li>
+            <li><b>ridge</b>- Define uma borda 3D sulcada. O efeito depende do valor da cor da borda</li>
+            <li><b>inset</b>- Define uma borda inserida em 3D. O efeito depende do valor da cor da borda</li>
+            <li><b>outset</b>- Define uma borda de partida 3D. O efeito depende do valor da cor da borda</li>
+            <li><b>none</b>- não define fronteiras</li>
+            <li><b>hidden</b>- Define uma borda oculta</li>
+        </ul>
+        <p>A <b>border-style</b> propriedade pode ter de um a quatro valores (para a borda superior, borda direita, borda inferior e borda esquerda).</p>
+        <img src="Imagem/fronteiras2.jpg"/>
+        <p><b>Nota:Nenhuma das outras propriedades de borda CSS descritas abaixo terá QUALQUER efeito, a menos que a <b>border-style</b>propriedade esteja definida!</b></p>
+        <h2>Largura da Fronteira</h2>
+        <p>A <b>border-width</b>propriedade especifica a largura das quatro bordas.</p>
+        <p>A largura pode ser definida como um tamanho específico (em px, pt, cm, em, etc) ou usando um dos três valores predefinidos: thin, medium ou thick.</p>
+        <p>A <b>border-width</b>propriedade pode ter de um a quatro valores (para a borda superior, borda direita, borda inferior e borda esquerda).</p>
+        <img src="Imagem/fronteiras3.jpg"/>
+        <h3>Exemplo</h3>
+        <img src="Imagem/fronteiras4.jpg"/>
+        <h2>Cor da bordaa</h2>
+        <p>A <b>border-color</b>propriedade é usada para definir a cor das quatro bordas.</p>
+        <p>A cor pode ser definida por:</p>
+        <ul>
+            <li>name - especifica um nome de cor, como "vermelho"</li>
+            <li>Hex - especifique um valor hexadecimal, como "# ff0000"</li>
+            <li>RGB - especifique um valor RGB, como "rgb (255,0,0)"</li>
+            <li>transparente</li>
+        </ul>
+        <p>A <b>border-color</b>propriedade pode ter de um a quatro valores (para a borda superior, borda direita, borda inferior e borda esquerda). </p>
+        <p>Se <b>border-color</b>não estiver definido, herda a cor do elemento.</p>
+        <img src="Imagem/fronteiras5.jpg"/>
+        <h3>Exemplo</h3>
+        <img src="Imagem/fronteiras6.jpg"/>
+        <h2>Fronteira - Lados Individuais</h2>
+        <p>Nos exemplos acima, você viu que é possível especificar uma borda diferente para cada lado.</p>
+        <p>Em CSS, há também propriedades para especificar cada uma das bordas (superior, direita, inferior e esquerda):</p>
+        <img src="Imagem/fronteiras7.jpg"/>
+        <h3>Exemplo</h3>
+        <img src="Imagem/fronteiras8.jpg"/>
+        <p>O exemplo acima fornece o mesmo resultado como este:</p>
+        <h3>Exemplo</h3>
+        <img src="Imagem/fronteiras9.jpg"/>
+        <p>Então, aqui está como funciona:</p>
+        <p>Se a <b>border-style</b>propriedade tiver quatro valores:</p>
+        <ul><li><b>estilo de borda: tracejado duplo pontilhado;</b></li>
+            <ul>
+                <li>a borda superior é pontilhada</li>
+                <li>borda direita é sólida</li>
+                <li>borda inferior é o dobro</li>
+                <li>borda esquerda está tracejada</li>
+            </ul>
+        </ul>
+        <p>Se a <b>border-style</b>propriedade tiver três valores:</p>
+        <ul><li><b>estilo de borda: duplo sólido pontilhado;</b></li>
+            <ul>
+                <li>a borda superior é pontilhada</li>
+                <li>as bordas direita e esquerda são sólidas</li>
+                <li>borda inferior é o dobro</li>
+            </ul>
+        </ul>
+        <p>Se a <b>border-style</b>propriedade tiver dois valores:</p>
+        <ul><li><b>estilo de borda: sólido pontilhado;</b></li>
+            <ul>
+                <li>as bordas superior e inferior são pontilhadas</li>
+                <li>as bordas direita e esquerda são sólidas</li>
+            </ul>
+        </ul>
+        <p>Se a <b>border-style</b>propriedade tiver um valor:</p>
+        <ul><li><b>estilo de borda: pontilhado;</b></li>
+            <ul>
+                <li>todas as quatro fronteiras são pontilhadas</li>
+            </ul>
+        </ul>
+        <p>A <b>border-style</b>propriedade é usada no exemplo acima. No entanto, também funciona com <b>border-width</b> e <b>border-color</b>.</p>
+        <h2>Border - Propriedade de taquigrafia</h2>
+        <p>Como você pode ver nos exemplos acima, há muitas propriedades a serem consideradas ao lidar com bordas.</p>
+        <p>Para encurtar o código, também é possível especificar todas as propriedades de borda individuais em uma propriedade.</p>
+        <p>A <b>border</b>propriedade é uma propriedade abreviada para as seguintes propriedades de borda individuais:</p>
+        <ul>
+            <li><b>border-width</b></li>
+            <li><b>border-style (requeridos)</b></li>
+            <li><b>border-color</b></li>
+        </ul>
+        <h3>Exemplo</h3>
+        <img src="Imagem/fronteiras10.jpg"/>
+        <p>Você também pode especificar todas as propriedades de borda individuais para apenas um lado:</p>
+        <h3>Fronteira esquerda</h3>
+        <img src="Imagem/fronteiras11.jpg"/>
+        <h3>Borda Inferior</h3>
+        <img src="Imagem/fronteiras12.jpg"/>
+        <h2>Bordas arredondadas</h2>
+        <p>A <b>border-radius</b>propriedade é usada para adicionar bordas arredondadas a um elemento:</p>
+        <img src="Imagem/fronteiras14.jpg"/>
+        <h3>Exemplo</h3>
+        <img src="Imagem/fronteiras15.jpg"/>
+        <p><b>Nota:</b>A <b>border-radius</b>propriedade não é suportada no IE8 e em versões anteriores.</p>
+        <p></p>
+    </body>
+</html>
+
+

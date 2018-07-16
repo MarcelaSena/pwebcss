@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+    <head>
+        <meta charset="UFT-8"/>
+        <style>
+            body{
+                background-color: skyblue;
+            }
+            
+            .center{
+                width: 50%;
+                margin: auto;
+            }
+        </style>
+        
+    </head>
+    <body>
+        <h1>Sintaxe CSS e Seletores</h1>
+        <h2>Sintaxe CSS</h2>
+        <p>Um conjunto de regras CSS consiste em um seletor e um bloco de declaração:</p>
+        <img src="Imagem/selector.gif"/>
+        <p>O seletor aponta para o elemento HTML que você deseja estilizar.</p>
+        <p>O bloco de declaração contém uma ou mais declarações separadas por ponto e vírgula.</p>
+        <p>Cada declaração inclui um nome de propriedade CSS e um valor, separados por dois pontos.</p>
+        <p>Uma declaração CSS sempre termina com um ponto-e-vírgula e os blocos de declaração são cercados por chaves.</p>
+        <p>No exemplo a seguir, todos os elementos <p> serão alinhados ao centro, com uma cor de texto vermelha:</p>
+        <h3>Exemplo</h3>
+        <img src="Imagem/i.png"/>
+        <h2>Seletores de CSS</h2>
+        <p>Os seletores CSS são usados para "localizar" (ou selecionar) elementos HTML com base no nome, ID, classe, atributo e mais do elemento.</p>
+        <h2>O elemento Selector</h2>
+        <p>O seletor de elemento seleciona elementos com base no nome do elemento.</p>
+        <p>Você pode selecionar todos os elementos <p> em uma página como essa (nesse caso, todos os elementos <p> serão alinhados ao centro, com uma cor de texto vermelha):</p>
+        <h3>Exemplo</h3>
+        <img src="Imagem/exemplo2.jpg"/>
+        <h2>O seletor de id</h2>
+        <p>O seletor de elemento seleciona elementos com base no nome do elemento.</p>
+        <p>Você pode selecionar todos os elementos <p> em uma página como essa (nesse caso, todos os elementos <p> serão alinhados ao centro, com uma cor de texto vermelha):</p>
+        <h3>Exemplo</h3>
+        <img src="Imagem/exemplo3.jpg"/>
+        <h2>O seletor de id</h2>
+        <p>O seletor de id usa o atributo id de um elemento HTML para selecionar um elemento específico.</p>
+        <p>O id de um elemento deve ser único dentro de uma página, então o seletor de id é usado para selecionar um elemento único!</p>
+        <p>Para selecionar um elemento com um id específico, escreva um caractere hash (#), seguido pelo id do elemento.</p>
+        <p>A regra de estilo abaixo será aplicada ao elemento HTML com id = "para1":</p>
+        <h3>Exemplo</h3>
+        <img src="Imagem/exemplo4.jpg"/>
+        <p><b>Nota: Um nome de id não pode começar com um número!</b></p>
+        <h2>O seletor de classe</h2>
+        <p>O seletor de classe seleciona elementos com um atributo de classe específico.</p>
+        <p>Para selecionar elementos com uma classe específica, escreva um caractere de ponto (.), Seguido do nome da classe.</p>
+        <p>No exemplo abaixo, todos os elementos HTML com class = "center" serão vermelhos e alinhados ao centro:</p>
+        <h3>Exemplo</h3>
+        <img src="Imagem/exemplo5.jpg"/>
+        <p>Você também pode especificar que somente elementos HTML específicos devem ser afetados por uma classe.</p>
+        <p>No exemplo abaixo, apenas os elementos <p> com class = "center" serão centralizados:</p>
+        <h3>Exemplo</h3>
+        <img src="Imagem/exemplo6.jpg"/>
+        <p>Elementos HTML também podem se referir a mais de uma classe.</p>
+        <p>No exemplo abaixo, o elemento <p> será estilizado de acordo com class = "center" e class = "large":</p>
+        <h3>Exemplo</h3>
+        <img src="Imagem/exemplo7.png"/>
+        <p><b>Nota:</b> Um nome de classe não pode começar com um número!</p>
+        <h2>Seletores de agrupamento</h2>
+        <p>Se você tiver elementos com as mesmas definições de estilo, assim:</p>
+        <code>
+            h1 {<br/>
+                text-align: center;<br/>
+                color: red;<br/>
+            }<br/>
+
+            h2 {<br/>
+                text-align: center;<br/>
+                color: red;<br/>
+            }<br/>
+
+            p {<br/>
+                text-align: center;<br/>
+                color: red;<br/>
+            }
+        </code>
+        <p>Será melhor agrupar os seletores para minimizar o código.</p>
+        <p>Para agrupar seletores, separe cada seletor com uma vírgula.</p>
+        <p>No exemplo abaixo, agrupamos os seletores do código acima:</p>
+        <h3>Exemplo</h3>
+        <img src="Imagem/exemplo8.jpg"/>
+        <h2>Comentários CSS</h2>
+        <p>Os comentários são usados para explicar o código e podem ajudar quando você editar o código-fonte em uma data posterior.</p>
+        <p>Comentários são ignorados pelos navegadores.</p>
+        <p>Um comentário CSS começa com / * e termina com * /. Comentários também podem abranger várias linhas:</p>
+        <h3>Exemplo</h3>
+        <img src="Imagem/exemplo9.jpg"/>
+    </body>
+</html>
